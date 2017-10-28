@@ -64,7 +64,7 @@ class TimeConverter
      * @param int $milliseconds
      * @return Time
      */
-    protected function millisecondsToTime($milliseconds)
+    protected static function millisecondsToTime($milliseconds)
     {
         $time = new Time();
 
